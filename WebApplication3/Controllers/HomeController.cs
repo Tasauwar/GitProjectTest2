@@ -13,6 +13,7 @@ namespace WebApplication3.Controllers
     {
         private readonly ILogger<HomeController> _logger;
 
+//Changes from server
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
